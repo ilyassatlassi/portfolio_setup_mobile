@@ -27,13 +27,13 @@ cancel.addEventListener('click', activeToggle);
 
 const arrays = [
   {
-    name: 'Tonic',
+    name: 'Todo-List with Webpack',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    image: './images/first_pro.png',
+      'A solo programming project that highlights the use of webpack to bundle JavaScript, ES6 syntax',
+    image: './images/capture.png',
     technologies: ['html', 'css', 'javascript'],
-    linkToLiveVersion: 'https://ilyassatlassi.github.io/portfolio/',
-    linkToSource: 'https://github.com/ilyassatlassi/portfolio',
+    linkToLiveVersion: ' https://ilyassatlassi.github.io/webpack/',
+    linkToSource: 'https://github.com/ilyassatlassi/webpack',
   },
   {
     name: 'Multi-Post Stories',
@@ -60,7 +60,7 @@ const arrays = [
     image: './images/Snapshoot Portfolio 3.png',
     technologies: ['html', 'css', 'javascript'],
     linkToLiveVersion: 'https://ilyassatlassi.github.io/portfolio/',
-    linkToSourhttps: 'https://github.com/ilyassatlassi/portfolio',
+    linkToSource: 'https://github.com/ilyassatlassi/portfolio',
   },
 ];
 
@@ -89,8 +89,7 @@ arrays.map((array, index) => project.innerHTML += `
   </div>
   <div class="description">
     <p>
-      A daily selection of privately personalized reads; no accounts or
-      sign-ups required.
+      ${array.description}
     </p>
   </div>
   <ul class="tools">
@@ -107,7 +106,7 @@ const moreDetails = (index) => {
   title.innerHTML = arrays[index].name;
   image.src = arrays[index].image;
   live.href = arrays[index].linkToLiveVersion;
-  source.href = arrays[index].linkToSourhttps;
+  source.href = arrays[index].linkToSource;
   detail.style.display = 'block';
   body.style.overflow = 'hidden';
 };
