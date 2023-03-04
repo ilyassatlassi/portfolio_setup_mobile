@@ -408,6 +408,10 @@ hr {
 }
 
 @media (min-width: 768px) {
+  .delete {
+    display: none;
+  }
+
   .toolbar {
     display: none;
   }
