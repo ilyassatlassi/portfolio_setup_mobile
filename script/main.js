@@ -30,7 +30,7 @@ const arrays = [
     name: 'Todo-List with Webpack',
     description:
       'A solo programming project that highlights the use of webpack to bundle JavaScript, ES6 syntax',
-    image: './images/capture.png',
+    image: './images/Capture.png',
     technologies: ['html', 'css', 'javascript'],
     linkToLiveVersion: ' https://ilyassatlassi.github.io/webpack/',
     linkToSource: 'https://github.com/ilyassatlassi/webpack',
